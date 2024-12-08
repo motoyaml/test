@@ -2,3 +2,13 @@
 『Anaconda Promptでの環境コピー方法』
 conda create --name cloned_openai_env --clone old_openai_env
 
+
+『gitの使い方』
+git status
+
+git add "ファイル名"  
+※「git add .」で全部
+
+git commit -v
+※「i」でvim内にコメントを残せる、出るときは「Esc」から「:wq」
+
