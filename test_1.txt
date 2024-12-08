@@ -12,3 +12,14 @@ git add "ファイル名"
 git commit -v
 ※「i」でvim内にコメントを残せる、出るときは「Esc」から「:wq」
 
+ファイルの削除：git rm 
+
+
+変更ログの確認：git log
+　※git log --oneline #一行で表示
+　　git log -p #ファイルの差分を表示
+　　git log -n 3 #最新３つの変更を表示
+　※kで上に移動、jで下に移動、qで終了
+
+変更差分の確認：git diff　ローカルとSTGの差分、つまりaddの有無
+　※git diff HEAD　STGと最新コミットの差分、つまりcommitの有無
